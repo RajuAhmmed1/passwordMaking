@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import Clock from "./components/Clock.jsx";
 import "./index.css";
 import PM from "./components/PasswordMaking.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <PM />
+    <Clock location="bn-BD" />
   </React.StrictMode>
 );
